@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	overflow: hidden;
+	background: #fff;
+}
+main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	
+}
+ul.tools{
+	width: 178px;
+	height: 100%;
+	background: skyblue;
+	border-right: 2px solid black;
+	padding: 30px 10px;
+}
+ul.tools li{
+	width: 60px;
+	height: 60px;
+	border: 1px solid white;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	/*display: inline-block;*/
+}
+/*ul.tools .fg{
+	height: 1px;
+	width: 100px;
+	margin: 10px 50px;
+	background: black;
+}*/
+div.right{
+	flex-grow: 1;
+	height: 100%;
+	background: antiquewhite;
+}
+div.top{
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid black;
+	overflow: hidden;
+}
+div.bottom{
+	width: 100%;
+	height: calc(100% - 100px);
+	background: white;
+	position: relative;
+}
+.xpc{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: orange;
+	display: none;
+}
+.opacity{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 0;
+}
+canvas{
+	border: 1px solid black;
+}
+.clean{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px dashed #00bf00;
+	width: 100px;
+	height: 100px;
+	display: none;
+}
+.save,.clearall{
+	display: block;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #0086B3;
+	border-radius: 8px;
+	margin-top: 38px;
+	margin-left: 40px;
+	float: left;
+}
+.clearAll,.newfile,.reverse{
+	width: 80px;
+	height: 30px;
+	margin-top: 38px;
+	margin-left: 40px;
+	border: none;
+	background: #0086B3;
+	border-radius: 8px;
+	float: left;
+}
+
+
+#line{
+	text-align: center;
+	line-height:60px ;
+}
+#dash{
+	text-align: center;
+	line-height:60px ;
+}
+#dash i{
+	font-size: 22px;
+}
+#pencil{
+	text-align: center;
+	line-height:60px ;
+}
+#pencil i{
+	font-size: 36px;
+}
+#circle{
+	text-align: center;
+	line-height:60px ;
+}
+#circle i{
+	font-size: 38px;
+}
+#rect{
+	text-align: center;
+	line-height:60px ;
+}
+#rect i{
+	font-size: 30px;
+}
+#poly{
+	text-align: center;
+	line-height:60px ;
+}
+#poly i{
+	font-size: 38px;
+}
+#polyJ{
+	text-align: center;
+	line-height: 60px;
+}
+#polyJ i{
+	font-size: 38px;
+}
+#text{
+	text-align: center;
+	line-height: 60px;
+}
+#text i{
+	font-size: 30px;
+}
+#paint,#stroke,#eraser,#cancel,#cutting,#fill,#Color{
+	text-align: center;
+	line-height: 60px;
+}
+#paint i{
+	font-size: 34px;
+}
+#stroke i{
+	font-size: 34px;
+}
+#eraser i,#cancel i,#cutting i{
+	font-size: 26px;
+}
